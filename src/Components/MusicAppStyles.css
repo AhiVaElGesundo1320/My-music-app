@@ -1,0 +1,95 @@
+body {
+  background-image: linear-gradient(to top right, rgb(80, 0, 104), rgb(0, 99, 99));
+}
+.navbar {
+  background-color: white;
+  border: rgb(174, 137, 209) 3px solid;
+  margin:30px auto;
+  border-radius: 30px;
+  display: flex;
+  flex-flow: row;
+  width:min-content;
+
+}
+
+.navbar input[type="text"] {
+  /* border:green solid 2px; */
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 22px;
+  text-align: center;
+  font-family: Orbitron, sans-serif;
+  color: rgb(138, 138, 138);
+  transition: border 0.5s;
+}
+
+.navbar input[type="text"] :active {
+  border: none;
+
+  outline: none;
+}
+
+.navbar input[type="text"]:focus {
+  border: none;
+  outline: none;
+}
+
+.navbar button {
+  /* border:yellow 2px solid; */
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  border-radius: 30px;
+}
+
+.navbar button:hover {
+  cursor: pointer;
+}
+
+.results {
+  width: 400px;  
+  margin-top: 20px;
+  background-color: rgb(81, 37, 105);
+  border-radius: 50px;
+  font-family: Orbitron, sans-serif;
+  background-image: linear-gradient(to bottom right, rgb(27, 129, 104), rgb(82, 30, 92));
+}
+
+.results-div {
+  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap:20px;
+}
+
+.reproductor {
+  
+  width:none;
+  margin: 0 auto;
+  box-shadow: 0px 1px 17px 5px rgba(169,59,255,0.99);
+-webkit-box-shadow: 0px 1px 17px 5px rgba(169,59,255,0.99);
+-moz-box-shadow: 0px 1px 17px 5px rgba(169,59,255,0.99);
+  border-radius:30px;
+}
+
+.artist-img {
+  /* box-shadow: 0px 1px 17px 5px rgba(198, 125, 253, 0.99);
+-webkit-box-shadow: 0px 1px 17px 5px rgba(169,59,255,0.99);
+-moz-box-shadow: 0px 1px 17px 5px rgba(169,59,255,0.99); */
+  border-radius:100%;
+}
+
+.album-img {
+  /* box-shadow: 0px 1px 17px 5px rgba(198, 125, 253, 0.99);
+  -webkit-box-shadow: 0px 1px 17px 5px rgba(169,59,255,0.99);
+  -moz-box-shadow: 0px 1px 17px 5px rgba(169,59,255,0.99); */
+    border-radius:50px;
+}
+
+.footer p {
+  font-family: Orbitron, sans-serif;
+  color:white;
+}
